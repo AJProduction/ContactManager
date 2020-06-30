@@ -8,6 +8,7 @@ function App() {
     <div className="App">
       <h1>AJ Contact Manager App</h1>
       <Contact />
+      <Contact />
     </div>
   );
 }
