@@ -1,14 +1,18 @@
 import React from 'react';
-import Contact from './components/Contact';
 
 import './App.css';
+import Header from './components/Header';
+import Contacts from './components/Contacts';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>AJ Contact Manager App</h1>
-      <Contact />
-      <Contact />
+      <Header branding="AJ Contact Manager" />
+      <div className="container">
+        <Contacts />
+      </div>
     </div>
   );
 }
